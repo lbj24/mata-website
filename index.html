@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MATA - Build Better Habits Together</title>
+    <meta name="description" content="MATA helps you build and maintain better habits with friends. Track your progress, share your journey, and stay accountable.">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: {
+                            50: '#f0f9ff',
+                            100: '#e0f2fe',
+                            200: '#bae6fd',
+                            300: '#7dd3fc',
+                            400: '#38bdf8',
+                            500: '#0ea5e9',
+                            600: '#0284c7',
+                            700: '#0369a1',
+                            800: '#075985',
+                            900: '#0c4a6e',
+                        },
+                        gray: {
+                            50: '#f8fafc',
+                            100: '#f1f5f9',
+                            200: '#e2e8f0',
+                            300: '#cbd5e1',
+                            400: '#94a3b8',
+                            500: '#64748b',
+                            600: '#475569',
+                            700: '#334155',
+                            800: '#1e293b',
+                            900: '#0f172a',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-gray-50 min-h-screen">
+    <!-- Navigation -->
+    <nav class="bg-white border-b border-gray-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <div class="flex items-center">
+                    <h1 class="text-2xl font-bold text-gray-900">MATA</h1>
+                </div>
+                <div class="hidden md:flex space-x-8">
+                    <a href="support.html" class="text-gray-600 hover:text-gray-900 px-3 py-2 text-sm font-medium">Support</a>
+                    <a href="privacy-policy.html" class="text-gray-600 hover:text-gray-900 px-3 py-2 text-sm font-medium">Privacy</a>
+                    <a href="terms-of-service.html" class="text-gray-600 hover:text-gray-900 px-3 py-2 text-sm font-medium">Terms</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 sm:py-24">
+        <div class="text-center">
+            <h1 class="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 mb-6">
+                Build Better Habits
+                <span class="text-primary-600">Together</span>
+            </h1>
+            <p class="mt-6 text-lg sm:text-xl text-gray-600 max-w-3xl mx-auto">
+                MATA helps you create lasting habits by connecting with friends, tracking your progress, and staying accountable. 
+                Share your journey, celebrate wins, and build the life you want.
+            </p>
+            
+            <!-- Download Buttons -->
+            <div class="mt-10 flex flex-col sm:flex-row gap-4 justify-center items-center">
+                <a href="#" id="download-ios" class="inline-flex items-center justify-center px-8 py-4 border border-transparent text-base font-semibold rounded-xl text-white bg-gray-900 hover:bg-gray-800 shadow-sm transition-all duration-200 min-w-[200px]">
+                    <svg class="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                        <path d="M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.465 5.05l-.708-.707a1 1 0 00-1.414 1.414l.707.707zm1.414 8.486l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 000 2h1z" clip-rule="evenodd" fill-rule="evenodd"></path>
+                    </svg>
+                    Download for iOS
+                </a>
+                <a href="#" id="download-android" class="inline-flex items-center justify-center px-8 py-4 border-2 border-gray-200 text-base font-semibold rounded-xl text-gray-700 bg-white hover:bg-gray-50 hover:border-gray-300 transition-all duration-200 min-w-[200px]">
+                    <svg class="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                        <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zM9.555 7.168A1 1 0 008 8v4a1 1 0 001.555.832l3-2a1 1 0 000-1.664l-3-2z" clip-rule="evenodd"></path>
+                    </svg>
+                    Download for Android
+                </a>
+            </div>
+        </div>
+
+        <!-- Features -->
+        <div class="mt-24 grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div class="bg-white rounded-2xl p-8 shadow-sm border border-gray-200">
+                <div class="w-12 h-12 bg-primary-100 rounded-xl flex items-center justify-center mb-4">
+                    <svg class="w-6 h-6 text-primary-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                    </svg>
+                </div>
+                <h3 class="text-xl font-semibold text-gray-900 mb-2">Track Progress</h3>
+                <p class="text-gray-600">Monitor your habits daily with an intuitive interface. See your streaks, completion rates, and celebrate your wins.</p>
+            </div>
+            
+            <div class="bg-white rounded-2xl p-8 shadow-sm border border-gray-200">
+                <div class="w-12 h-12 bg-primary-100 rounded-xl flex items-center justify-center mb-4">
+                    <svg class="w-6 h-6 text-primary-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z"></path>
+                    </svg>
+                </div>
+                <h3 class="text-xl font-semibold text-gray-900 mb-2">Stay Accountable</h3>
+                <p class="text-gray-600">Connect with friends and family. Share your progress, support each other, and build habits together.</p>
+            </div>
+            
+            <div class="bg-white rounded-2xl p-8 shadow-sm border border-gray-200">
+                <div class="w-12 h-12 bg-primary-100 rounded-xl flex items-center justify-center mb-4">
+                    <svg class="w-6 h-6 text-primary-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15"></path>
+                    </svg>
+                </div>
+                <h3 class="text-xl font-semibold text-gray-900 mb-2">Flexible Scheduling</h3>
+                <p class="text-gray-600">Choose daily, weekly, or custom schedules for your habits. Set reminders and track completions your way.</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-white border-t border-gray-200 mt-24">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <div class="mb-4 md:mb-0">
+                    <p class="text-gray-600 text-sm">© 2025 MATA. All rights reserved.</p>
+                </div>
+                <div class="flex space-x-6">
+                    <a href="support.html" class="text-gray-600 hover:text-gray-900 text-sm">Support</a>
+                    <a href="privacy-policy.html" class="text-gray-600 hover:text-gray-900 text-sm">Privacy Policy</a>
+                    <a href="terms-of-service.html" class="text-gray-600 hover:text-gray-900 text-sm">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Detect device and show appropriate download button
+        const isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
+        const isAndroid = /Android/.test(navigator.userAgent);
+        
+        document.getElementById('download-ios').addEventListener('click', function(e) {
+            e.preventDefault();
+            // Replace with your App Store link when available
+            window.location.href = 'https://apps.apple.com/app/mata/idYOUR_APP_ID';
+        });
+        
+        document.getElementById('download-android').addEventListener('click', function(e) {
+            e.preventDefault();
+            // Replace with your Play Store link when available
+            window.location.href = 'https://play.google.com/store/apps/details?id=YOUR_PACKAGE_NAME';
+        });
+    </script>
+</body>
+</html>
+
